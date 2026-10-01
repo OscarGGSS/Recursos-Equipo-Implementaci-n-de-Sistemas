@@ -1,0 +1,78 @@
+** Tipos de prints **
+
+-> println (System.out.println): Sirve para que el mensaje se imprima en consola con un salto de línea.
+
+Ejemplo: 
+
+	System.out.println("Hola Mundo");
+	System.out.println("Mi nombre es Codi");
+
+Resultado:
+
+	Hola Mundo
+	Mi nombnre es Codi
+
+-> print: El mensaje se imprime en la misma línea.
+
+Ejemplo:
+	
+	System.out.print("Hola Mundo");
+	System.out.print("Mi nombre es Codi");
+
+Resultado: 
+
+	Hola Mundo.Mi nombre es Codi
+
+->printf: imprime texto con formato
+
+Estructura
+
+	System.out.printf(formato, argumento1, argumento2, ...);
+
+formato: Texto que incluye caracteres y especificadores con "%" (el cuál indica dónde van las variables).
+
+argumentos: Valores o variables que reemplazan a los especificadores.
+
+Especificadores:
+
+• %s: Cadena de exto (String)
+• %d: Números enteros (int, long)
+• %f: Números con decimales (float, double). Se puede limitar los decimales con un punto (ejemplo: "%.2f", que es para dos decimales)
+• %c: Un solo carácter (char)
+• %b: Valores booleanos (true/false)
+
+Ejemplo:
+
+String nombre = "Codi";
+int edad = 10; 
+double promerdio = 9.555;
+
+	System.out.printf("Hola, mi nombre es %s, tengo %d años y mi promedio es %.2f.", nombre, edad, promedio);
+
+
+***************************
+
+Secuencias de escape: Permiten dar formato a las cadenas de texto con las que nos encontramos trabajando.
+
+• \n: Salto de línea
+• \t: Tabulador
+• \": Comillas dobles
+• \': Comillas simples
+
+Ejemplos:
+
+	System.out.print("Hola,\nagregamos un salto");
+	System.out.print("\tagregamos un tab");
+	System.out.println("");
+
+	System.out.println("Mensaje con \\ diagonal inversa");
+	System.out.println("Mensaje con \" comillas dobles");
+	System.out.println("Mensaje con \' comillas simples");
+
+Resultado
+
+	Hola,
+	agremanos un salto    agregamos un tab
+	Mensaje con \ diagonal inversa
+	Mensaje con " comillas dobles
+	Mensaje con ' comillas simples
