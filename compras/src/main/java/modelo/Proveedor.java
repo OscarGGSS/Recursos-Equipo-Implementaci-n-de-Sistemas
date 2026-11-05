@@ -7,15 +7,19 @@ import jakarta.persistence.Id;
 import lombok.*;
 
 /**
- * Representa a un proveedor en el subsistema de compras.
- * Responsabilidad principal: Mantener la integridad de los datos del proveedor necesarios para la creación de órdenes de compra y gestión de cuentas por pagar.
+ * Representa a un proveedor de mercancía en el subsistema de compras.
+ * Responsabilidad principal: Funcionar como un catálogo para almacenar 
+ * la información de contacto, datos fiscales (RFC) y datos bancarios de los proveedors
  * Subsistema: Compras
- * Relacióm con otros componentes:
+ * Relación con otros componentes:
+ * - Se le asocia una CondicionPago que dicta sus reglas de crédito.
+ * - Puede tener registradas múltiples órdenes de compra, compras, cuentas por pagar y pagos.
  * Reglas de negocio:
- *
- * @author Islas López Isis Jezabel
- * Fecha de inicio: 22-20-2026
- * Fecha de última modificación: 22-10-2026
+ * - El RFC debe contener la longitud válida (13 caracteres).
+ * - Al ser un catálogo, su función se centra en mantener la integridad de la información sin lógica de cálculos.
+ * @author Islas López Isis Jezabel, Oscar Gonzalez
+ * Fecha de inicio: 22-10-2026
+ * Fecha de última modificación: 05-11-2026
  */
 
 @Entity
