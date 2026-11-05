@@ -11,14 +11,22 @@ import lombok.ToString;
 import java.util.Date;
 
 /**
-  * Representa a una orden de compra en el subsistema de compras.
-  * Responsabilidad principal: Mantener la integridad de los datos de la orden de compra para la creación de compras.
-  * Subsistema: Compras
-  * Relacióm con otros componentes:
-  * Reglas de negocio:
-  * @author Islas López Isis Jezabel
-  * Fecha de inicio: 22-20-2026
-  * Fecha de última modificación: 22-10-2026
+ * Representa una orden de compra generada a un proveedor en el subsistema de compras.
+ * Responsabilidad principal: Registrar la intención y solicitud de mercancía a un 
+ * proveedor, manteniendo el control de los costos estimados antes de la recepción.
+ * Subsistema: Compras
+ * Relación con otros componentes:
+ * - Es generada por un Gerente de Compras.
+ * - Se emite dirigida a un Proveedor.
+ * - Contiene una lista de OrdenCompraDetalle (composición) con los artículos pedidos.
+ * - Es la cabecera que posteriormente da origen a una Compra real.
+ * Reglas de negocio:
+ * - Toda orden debe tener una fecha de creación y un estado actual.
+ * - El total estimado se compone de la suma de sus detalles menos los descuentos aplicables.
+ * - Una orden de compra es solo una solicitud, no genera una deuda (CuentaPorPagar) hasta convertirse en Compra.
+ * @author Islas Lopez Isis Jezabel, Óscar González Saucedo
+ * Fecha de inicio: 24-10-2026
+ * Fecha de última modificación: 05-11-2026
  */
 
 @Entity
