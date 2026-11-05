@@ -17,9 +17,9 @@ import lombok.*;
  * Reglas de negocio:
  * - El RFC debe contener la longitud válida (13 caracteres).
  * - Al ser un catálogo, su función se centra en mantener la integridad de la información sin lógica de cálculos.
- * @author Islas López Isis Jezabel, Oscar Gonzalez
- * Fecha de inicio: 22-10-2026
- * Fecha de última modificación: 05-11-2026
+ * @author Islas López Isis Jezabel, Oscar Gonzalez Saucedo, Equipo 1
+ * Fecha de Creación: 22-10-2026
+ * Fecha modificación: 05-11-2026
  */
 
 @Entity
