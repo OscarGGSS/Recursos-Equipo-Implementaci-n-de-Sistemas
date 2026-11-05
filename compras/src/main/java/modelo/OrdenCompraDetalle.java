@@ -20,9 +20,9 @@ import lombok.ToString;
  * Reglas de negocio:
  * - La cantidad solicitada y el costo unitario deben ser válidos para calcular el importe.
  * - El método calcularImporte() es responsabilidad exclusiva de esta clase (cantidadSolicitada * costoUnitario).
- * @author Islas López Isis Jezabel, Oscar Gonzalez 
- * Fecha de inicio: 24-20-2026
- * Fecha de última modificación: 05-11-2026
+ * @author Islas López Isis Jezabel, Oscar Gonzalez Saucedo Equipo 1
+ * Fecha de creación: 24-20-2026
+ * Fecha modificación: 05-11-2026
  */
 
 @Entity
