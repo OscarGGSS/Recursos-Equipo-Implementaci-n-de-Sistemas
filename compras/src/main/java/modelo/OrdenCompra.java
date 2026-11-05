@@ -24,9 +24,9 @@ import java.util.Date;
  * - Toda orden debe tener una fecha de creación y un estado actual.
  * - El total estimado se compone de la suma de sus detalles menos los descuentos aplicables.
  * - Una orden de compra es solo una solicitud, no genera una deuda (CuentaPorPagar) hasta convertirse en Compra.
- * @author Islas Lopez Isis Jezabel, Óscar González Saucedo
- * Fecha de inicio: 24-10-2026
- * Fecha de última modificación: 05-11-2026
+ * @author Islas Lopez Isis Jezabel, Óscar González Saucedo Equipo 1
+ * Fecha de creación: 24-10-2026
+ * Fecha modificación: 05-11-2026
  */
 
 @Entity
