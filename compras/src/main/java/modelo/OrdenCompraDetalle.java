@@ -10,14 +10,19 @@ import lombok.NoArgsConstructor;
 import lombok.ToString;
 
 /**
- * Representa el detalle de una orden de compra en el subsistema de compras.
- * Responsabilidad principal:
+ * Representa el detalle (partida) de un artículo dentro de una orden de compra.
+ * Responsabilidad principal: Desglosar qué artículo específico se está pidiendo, 
+ * en qué cantidad, y ser responsable de calcular su propio importe estimado.
  * Subsistema: Compras
- * Relacióm con otros componentes:
+ * Relación con otros componentes:
+ * - Pertenece estrictamente a una única OrdenCompra
+ * - Se vincula mediante un ID con el catálogo de Artículos del subsistema de Inventario.
  * Reglas de negocio:
- * @author Islas López Isis Jezabel
+ * - La cantidad solicitada y el costo unitario deben ser válidos para calcular el importe.
+ * - El método calcularImporte() es responsabilidad exclusiva de esta clase (cantidadSolicitada * costoUnitario).
+ * @author Islas López Isis Jezabel, Oscar Gonzalez 
  * Fecha de inicio: 24-20-2026
- * Fecha de última modificación: 24-10-2026
+ * Fecha de última modificación: 05-11-2026
  */
 
 @Entity
