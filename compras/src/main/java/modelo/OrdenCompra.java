@@ -12,14 +12,14 @@ import java.util.Date;
 
 /**
  * Representa una orden de compra generada a un proveedor en el subsistema de compras.
- * Responsabilidad principal: Registrar la intención y solicitud de mercancía a un 
+ * Responsabilidad principal: Registrar la solicitud de mercancía a un 
  * proveedor, manteniendo el control de los costos estimados antes de la recepción.
  * Subsistema: Compras
  * Relación con otros componentes:
  * - Es generada por un Gerente de Compras.
  * - Se emite dirigida a un Proveedor.
  * - Contiene una lista de OrdenCompraDetalle (composición) con los artículos pedidos.
- * - Es la cabecera que posteriormente da origen a una Compra real.
+ * - Es antes de que posteriormente se de origen a una Compra real.
  * Reglas de negocio:
  * - Toda orden debe tener una fecha de creación y un estado actual.
  * - El total estimado se compone de la suma de sus detalles menos los descuentos aplicables.
