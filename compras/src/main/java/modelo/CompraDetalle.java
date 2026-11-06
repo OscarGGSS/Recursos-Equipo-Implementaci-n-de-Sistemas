@@ -15,9 +15,9 @@ import lombok.ToString;
   * Subsistema: Compras
   * Relacióm con otros componentes:
   * Reglas de negocio:
-  * @author: Islas López Isis Jezabel
-  * Fecha de inicio: 22-20-2026
-  * Fecha de última modificación: 22-10-2026
+  * @author: Islas López Isis Jezabel Equipo 1
+  * Fecha de Creación: 22-20-2026
+  * Fecha de Modificación: 22-10-2026
  */
 
 @Entity
