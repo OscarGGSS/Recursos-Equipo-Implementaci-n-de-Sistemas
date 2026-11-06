@@ -17,9 +17,11 @@ import java.util.Date;
   * Subsistema: Compras
   * Relacióm con otros componentes: 
   - Se relaciona con las clases "CuentasPorPagar", "PagoProveedor" y "PagoDetalle"
-  - Tiene relacion con "CuentasPorPagarDAO", los cuales su objeto de Acceso de Datos para consultar los datos 
-    de 
+  - Tiene relacion con "CuentasPorPagarDAO", los cuales su objeto de Acceso de Datos para consultar,
+    eliminar y dar de alta (dependiendo de la actividad que se quiera hacer en las cuentas por pagar)
   * Reglas de negocio:
+  - Toda alta de cuenta por pagar se genera en automatico al registrar una compra.
+  - 
   * @author Islas López Isis Jezabel
   * Fecha de inicio: 23-20-2026
   * Fecha de última modificación: 23-10-2026
