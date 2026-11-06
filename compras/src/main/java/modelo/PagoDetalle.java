@@ -21,9 +21,9 @@ import lombok.ToString;
   * Reglas de negocio:
   * - Cada línea de detalle debe estar vinculada obligatoriamente a una cuenta por pagar existente.
   * - El monto del abono se desglosa de manera independiente entre el saldo principal y los intereses acumulados.
-  * @author Islas López Isis Jezabel
-  * Fecha de inicio: 23-20-2026
-  * Fecha de última modificación: 02-11-2026
+  * @author Islas López Isis Jezabel Equipo 1
+  * Fecha de Creación: 23-20-2026
+  * Fecha de Modificación: 02-11-2026
  */
 
 @Entity
