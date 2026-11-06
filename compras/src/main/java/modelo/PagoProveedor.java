@@ -20,9 +20,9 @@ import lombok.ToString;
  * Reglas de negocio:
  * - Todo pago registrado debe reflejar un monto total y una fecha válida.
  * - Un pago general puede desglosarse en múltiples abonos dirigidos a diferentes cuentas por pagar.
- * @author Islas López Isis Jezabel
- * Fecha de inicio: 22-20-2026
- * Fecha de última modificación: 02-11-2026
+ * @author Islas López Isis Jezabel Equipo 1
+ * Fecha de Creación: 22-20-2026
+ * Fecha de Modificación: 02-11-2026
  */
 
 @Entity
