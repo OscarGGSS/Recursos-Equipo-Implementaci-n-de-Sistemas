@@ -12,9 +12,13 @@ import java.util.Date;
 
 /**
   * Representa una cuenta por pagar en el subsistema de compras.
-  * Responsabilidad principal:
+  * Responsabilidad principal: Registra y administra los datos y procesos financieros de los datos 
+  de los proveedores en las cuentas por pagar.
   * Subsistema: Compras
-  * Relacióm con otros componentes:
+  * Relacióm con otros componentes: 
+  - Se relaciona con las clases "CuentasPorPagar", "PagoProveedor" y "PagoDetalle"
+  - Tiene relacion con "CuentasPorPagarDAO", los cuales su objeto de Acceso de Datos para consultar los datos 
+    de 
   * Reglas de negocio:
   * @author Islas López Isis Jezabel
   * Fecha de inicio: 23-20-2026
