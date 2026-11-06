@@ -16,9 +16,9 @@ import java.util.Date;
  * Subsistema: Compras
  * Relación con otros componentes:
  * Reglas de negocio:
- * @author: Islas L&oacute;pez Isis Jezabel
- * Fecha de inicio: 22-20-2026
- * Fecha de &uacute;ltima modificaci&oacute;n: 22-10-2026
+ * @author: Islas López Isis Jezabel
+ * Fecha de Creación: 22-20-2026
+ * Fecha de Modificación: 22-10-2026
  */
 
 @Entity
