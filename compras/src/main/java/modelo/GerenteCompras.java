@@ -16,9 +16,9 @@ import lombok.*;
   * Reglas de negocio:
   * - Todo gerente de compras debe contar con datos de contacto válidos (nombre, teléfono y domicilio).
   * - El estado activo del gerente determina si tiene permisos vigentes para realizar operaciones en el sistema.
-  * @author Islas López Isis Jezabel
-  * Fecha de inicio: 22-20-2026
-  * Fecha de última modificación: 02-11-2026
+  * @author Islas López Isis Jezabel Equipo 1
+  * Fecha de Creación: 22-20-2026
+  * Fecha de Modificación: 02-11-2026
  */
 
 @Entity
