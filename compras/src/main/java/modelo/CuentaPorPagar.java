@@ -22,9 +22,9 @@ import java.util.Date;
   * Reglas de negocio:
   - Toda alta de cuenta por pagar se genera en automatico al registrar una compra.
   - 
-  * @author Islas López Isis Jezabel
-  * Fecha de inicio: 23-20-2026
-  * Fecha de última modificación: 23-10-2026
+  * @author Islas López Isis Jezabel, Lizeth Adriana Becerra Cruz Equipo 1
+  * Fecha de Creación: 23-20-2026
+  * Fecha de Modificación: 05-11-2026
  */
 
 @Entity
