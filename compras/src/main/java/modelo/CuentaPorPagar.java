@@ -15,16 +15,18 @@ import java.util.Date;
   * Responsabilidad principal: Registra y administra los datos y procesos financieros de los datos 
   de los proveedores en las cuentas por pagar.
   * Subsistema: Compras
-  * Relacióm con otros componentes: 
+  * Relación con otros componentes: 
   - Se relaciona con las clases "CuentasPorPagar", "PagoProveedor" y "PagoDetalle"
   - Tiene relacion con "CuentasPorPagarDAO", los cuales su objeto de Acceso de Datos para consultar,
     eliminar y dar de alta (dependiendo de la actividad que se quiera hacer en las cuentas por pagar)
   * Reglas de negocio:
+  - Calcula la fecha límite de pago considerando las condiciones y días de crédito del proveedor
+  - Se genera de forma automatica al registrar la cuenta
   - Toda alta de cuenta por pagar se genera en automatico al registrar una compra.
-  - 
+  - Se exige un motivación de cancelación registrando el usuario y la fecha de la cancelación.
   * @author Islas López Isis Jezabel, Lizeth Adriana Becerra Cruz Equipo 1
   * Fecha de Creación: 23-20-2026
-  * Fecha de Modificación: 05-11-2026
+  * Fecha de Modificación: 07-11-2026
  */
 
 @Entity
@@ -62,7 +64,7 @@ public class CuentaPorPagar {
     private int idUsuarioCancelo;
 
     /**
-     * Descripción:
+     * Descripción: Calcula el interes acumulado de la cuenta por pagar.
      * @throws:
      * Información de Modificación:
      * Información de Tablas, Entidades o Componentes:
