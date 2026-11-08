@@ -12,11 +12,15 @@ import java.util.Date;
 
 /**
  * Representa a una compra en el subsistema de compras.
- * Responsabilidad principal: Administrar y registrar 
+ * Responsabilidad principal: Administrar y registrar las compras efectuadas a los proveedores
  * Subsistema: Compras
  * Relación con otros componentes:
+ * - Se relaciona con las clases "CompraDetalle", "CuentaPorPagar", "Proveedor" Y "OrdenCompra"
  * Reglas de negocio:
- * @author: Islas López Isis Jezabel Equipo 1
+ * - Se captura el número de factura del proveedor
+ * - Se registran por separado las tres fechas: Fecha de la orden, Fecha de recepción, Fecha de compra
+ * - Se actualizan o cancelan según las modificaciones, cancelaciones o devoluciones aplicadas sobre la compra relacionada
+ * @author: Islas López Isis Jezabel, Becerra Cruz Lizeth Adriana  Equipo 1
  * Fecha de Creación: 22-20-2026
  * Fecha de Modificación: 22-10-2026
  */
