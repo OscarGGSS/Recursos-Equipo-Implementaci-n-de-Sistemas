@@ -24,8 +24,8 @@ import java.util.Date;
   - Se genera de forma automatica al registrar la cuenta
   - Toda alta de cuenta por pagar se genera en automatico al registrar una compra.
   - Se exige un motivación de cancelación registrando el usuario y la fecha de la cancelación.
-  * @author Islas López Isis Jezabel, Lizeth Adriana Becerra Cruz Equipo 1
-  * Fecha de Creación: 23-20-2026
+  * @author Islas López Isis Jezabel, Becerra Cruz Lizeth Adriana Equipo 1
+  * Fecha de Creación: 23-10-2026
   * Fecha de Modificación: 07-11-2026
  */
 
@@ -65,13 +65,13 @@ public class CuentaPorPagar {
 
     /**
      * Descripción: Calcula el interes acumulado de la cuenta por pagar.
-     * @throws:
-     * Información de Modificación:
+     * @throws: ArithmeticException Excepción lanzada en caso de error durante la operación aritmética con montos.
+     * Información de Modificación: Creación de la lógica inicial de cálculo de recargos
      * Información de Tablas, Entidades o Componentes:
      * Reglas de Negocio;
-     * @author
-     * Fecha de creación:
-     * Fecha de modificación:
+     * @author Islas López Isis Jezabel, Becerra Cruz Lizeth Adriana Equipo 1.
+     * Fecha de creación: 23-10-2026
+     * Fecha de modificación: 07-11-2026
      */
     public double calcularInteresAcomulado(){
 
