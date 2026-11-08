@@ -22,7 +22,7 @@ import java.util.Date;
  * - Se actualizan o cancelan según las modificaciones, cancelaciones o devoluciones aplicadas sobre la compra relacionada
  * @author: Islas López Isis Jezabel, Becerra Cruz Lizeth Adriana  Equipo 1
  * Fecha de Creación: 22-20-2026
- * Fecha de Modificación: 22-10-2026
+ * Fecha de Modificación: 07-11-2026
  */
 
 @Entity
