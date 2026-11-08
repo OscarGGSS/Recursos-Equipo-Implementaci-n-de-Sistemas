@@ -13,11 +13,14 @@ import lombok.ToString;
   * Representa el detalle de una compra en el subsistema de compras.
   * Responsabilidad principal: Almecena los datos completos de una compra, incluyendo la cantidad de artículos que se solicitaron.
   * Subsistema: Compras
-  * Relacióm con otros componentes:
+  * Relación con otros componentes:
+  * - Se relaciona con "CompraDetalle"
   * Reglas de negocio:
-  * @author: Islas López Isis Jezabel Equipo 1
+  * - No se permite devolver o procesar más de lo comprado de ese artículo
+  * - Las cantidades corresponden estrictamente a lo efectivamente recibido y verificado
+  * @author: Islas López Isis Jezabel, Becerra Cruz Lizeth Adriana Equipo 1
   * Fecha de Creación: 22-20-2026
-  * Fecha de Modificación: 22-10-2026
+  * Fecha de Modificación: 07-11-2026
  */
 
 @Entity
