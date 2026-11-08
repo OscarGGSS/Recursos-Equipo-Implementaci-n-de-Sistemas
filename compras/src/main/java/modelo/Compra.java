@@ -12,7 +12,7 @@ import java.util.Date;
 
 /**
  * Representa a una compra en el subsistema de compras.
- * Responsabilidad principal:
+ * Responsabilidad principal: Administrar y registrar 
  * Subsistema: Compras
  * Relación con otros componentes:
  * Reglas de negocio:
