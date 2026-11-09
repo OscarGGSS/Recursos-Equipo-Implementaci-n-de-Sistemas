@@ -12,7 +12,7 @@ import java.util.List;
  * - Es implementada por la clase ProveedorServicio.
  * - Es consumida por la capa de interfaz de usuario en ComprasApplication.
  * Reglas de negocio:
- * - Todo proveedor manipulado debe apegarse a las restricciones de unicidad fiscal y datos bancarios completos.
+ * - Todo proveedor  debe apegarse a las restricciones de condicion pago que se pongan.
  *
  * @author Óscar González Saucedo Equipo 1
  * Fecha creación: 07-11-2026
