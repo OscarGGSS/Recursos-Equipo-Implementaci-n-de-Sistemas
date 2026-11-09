@@ -8,13 +8,11 @@ import java.util.List;
 
 /**
  * Interfaz que define las operaciones del servicio de órdenes de compra.
- * Propósito: Establecer las firmas y responsabilidades comerciales sobre el ciclo de vida de las solicitudes de compra.
+ * Propósito: Establecer las responsabilidadessobre  las solicitudes de compra.
  * Responsabilidad principal: Delimitar el registro, actualización, cancelación y consulta de órdenes de compra.
  * Subsistema: Compras
  * Relación con otros componentes:
  * - Es implementada por OrdenCompraServicio.
- * - Es consumida por la consola ComprasApplication y el flujo de recepción de mercancía.
- * Reglas de negocio:
  * - Toda orden de compra gestionada debe tener estados válidos y desglosar correctamente sus montos.
  *
  * @author Óscar González Saucedo Equipo 1
